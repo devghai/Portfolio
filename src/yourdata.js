@@ -3,22 +3,40 @@ export default
         //(Please Do Not Remove The comma(,) after every variable)
         //Change The Website Template
         
-        name :'devghai.',
-        
+        name :'devghai. ',
+
         headerTagline: [//Line 1 For Header
-                        'Hello. I am Dev.',
+                        'Hello. I am Dev. 🇸🇪🇮🇳',
                         //Line 2 For Header
-                        'a Junior at San Jose State University',
+                        'Junior at San Jose State University',
                         //Line 3 For Header
                         ''
     ],
         //Contact Email
         contactEmail:'dev.ghai@sjsu.edu',
         // Add Your About Text Here
-        abouttext: "I am currently a third year mathematics and computer science student at San Jose State. I enjoy learning new technolgoies and pushing the boundaries of what's possible in the fields of Data Science and Artificial Intelligence. I am currently working on mastering Set Theory, Propability Theory and Formal Langauges in order to craft high value technologies for ++.",
-        aboutImage:'https://unsplash.com/photos/bENplJMtdsw',
+        abouttext: "I am currently a third year mathematics and computer science student at San Jose State. I am 20 years old and currently live in Palo Alto, CA. I enjoy learning new technolgoies and pushing the boundaries of what's possible in the fields of Data Science and Artificial Intelligence. I am currently working on mastering Set Theory, Propability Theory and Formal Langauges in order to craft high value technologies for ++.",
+        aboutImage:'https://images.unsplash.com/photo-1710309881243-12bafba60e01?q=80&w=2835&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
        //Change This To Hide The Image of About Section (True Or False)
        ShowAboutImage:true,//true or false (Change Here)
+
+       interests: [
+        'I rock climb indoor v7 and 5.12.',
+        'I enjoy learning about ethical AI and app development.',
+        'I am new to Chess, I have a current blitz rating of <a href="https://www.chess.com/member/lambolvr" target="_blank">726</a>.',
+        'Cooking: I enjoy crafting high protein healthy meals.',
+        'In 2024 I have practiced running 5-10 miles a week',
+        'I love to travel and have been to many different countries despite my young age. These include:'
+    ],
+    
+    // Additional interests section
+    additionalInterests: [
+        'India',
+        'France, Germany, Iceland, Ireland, Italy, Portugal, Spain, Sweden, U.K',
+        'Canada,United States,',
+        // Add more interests as needed
+    ],
+     
        // Change Projects Here 
        projects:[
            {

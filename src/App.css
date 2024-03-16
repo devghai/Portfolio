@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Noto+Sans&display=swap');
 
 
 body{
   font-size: 16px;
   background: white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
   overflow-x: hidden;
   z-index: 1;
 }
@@ -118,10 +118,70 @@ li .link:hover{
   font-size: 1.3em;
   text-align: left;
   width: 37em;
+  color: rgb(0, 0, 0);
 }
-.about img{
-  margin-left: 5em;
+
+.about img {
+  max-width: 30%; /* Set the maximum width of the image to 100% of its container */
+  height: auto; /* Automatically adjust the height to maintain aspect ratio */
+  display: block; /* Ensure the image behaves as a block element */
+  margin: 0 auto; /* Center the image horizontally */
+  /* Add any additional styles as needed */
 }
+
+
+/* Add styles for Interests component */
+.interests {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  
+}
+
+.interests-content {
+  position: relative;
+  left: 15em;
+}
+
+.interests-content h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  text-align: left;
+}
+
+.interests-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.interests-content ul li {
+  font-size: 1.3em;
+  margin-bottom: 0.5em;
+  padding-left: 1.5em;
+  text-align: left; /* Align text to the left */
+  text-indent: -1.5rem;
+}
+
+.interests-content ul li:before {
+  content: '•';
+  color: #9352ae;
+  font-size: 1.2em;
+  margin-right: 0.5em;
+  position: absolute;
+  left: 0;
+}
+
+/* Add styles for additional interests list */
+.additional-interests-list {
+  list-style-type: disc; /* Use disc as bullet points */
+  margin-left: 20px; /* Indent the list */
+}
+
+.additional-interests-list li {
+  margin-bottom: 8px; /* Adjust spacing between items */
+}
+
+
 .work{
   position: relative;
   display: flex;
