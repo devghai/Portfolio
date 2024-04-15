@@ -10,6 +10,7 @@ import Navbar from './components/Navbar'
 import Skills  from './components/Skills';
 
 
+
 function App() {
   return (
     <div className="App">
@@ -26,12 +27,12 @@ function App() {
         <Interests></Interests>
       </div>
 
-      
-      <div className = 'Skills'>
-        <Skills></Skills>
+      <div className='Skills'>
+       <Skills>
         
-      </div>      
-      
+       </Skills>
+      </div>
+
       <div className='work'>
         <Work></Work>
       </div>
