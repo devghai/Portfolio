@@ -15,7 +15,7 @@ export default
         //Contact Email
         contactEmail:'dev.ghai@sjsu.edu',
         // Add Your About Text Here
-        abouttext: "I am currently a third year mathematics and computer science student at San Jose State. I am 20 years old and currently live in Palo Alto, CA. I enjoy learning new technolgoies and pushing the boundaries of what's possible in the fields of Data Science and Artificial Intelligence. I am currently working on mastering Set Theory, Propability Theory and Formal Langauges in order to craft high value technologies for my future company.",
+        abouttext: "I am currently a fourth year mathematics and computer science student at San Jose State. I am 21 years old and currently live in Palo Alto, CA. I enjoy learning new technolgoies and pushing the boundaries of what's possible in the fields of Data Science and Artificial Intelligence. I am currently working on mastering my skills in React Native, Tableu, SQL, and Pytorch in order to craft high value technologies for my future company.",
         aboutImage:'https://images.unsplash.com/photo-1710309881243-12bafba60e01?q=80&w=2835&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
        //Change This To Hide The Image of About Section (True Or False)
        ShowAboutImage:true,//true or false (Change Here)
@@ -24,12 +24,12 @@ export default
         'I rock climb indoor v6 and 5.12.',
         'I enjoy learning about ethical AI and app development.',
         'I love to learn about cars and how they work',
-        'I like to thrift for clothes and visit new places in the bay area in my free time',
-        'I am new to Chess, I have a current blitz rating of <a href="https://www.chess.com/member/lambolvr" target="_blank">726</a>.',
+        'I like to connect with and work together with my peers',
+        'I am new to Chess, I have a current blitz rating of <a href="https://www.chess.com/member/lambolvr" target="_blank">726</a>',
         'I love to travel and have been to many different countries despite my young age. These include:'
     ],
       skills: [
-        'Javascript',
+        'Java',
         'Python',
         'Calculus',
         'React',
