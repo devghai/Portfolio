@@ -8,7 +8,7 @@ export default
         headerTagline: [//Line 1 For Header
                         'Hello. I am Dev. 🇸🇪🇮🇳',
                         //Line 2 For Header
-                        'Junior at San Jose State University',
+                        'Senior at San Jose State University',
                         //Line 3 For Header
                         ''
     ],
